@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import PostForm from "./PostForm";
-class SumTop2 extends React.Component {
+class GetAllPost extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -68,4 +68,4 @@ class SumTop2 extends React.Component {
   }
 }
 
-export default SumTop2;
+export default GetAllPost;

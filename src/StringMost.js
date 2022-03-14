@@ -41,8 +41,8 @@ class StringMost extends React.Component {
     console.log("Bai 2: Tinh tong 2 so lon nhat trong mang: ");
     let arr = [1, 4, 2, 3, 5];
     console.log("Mang ban dau la: ", arr);
-    let arr1 = arr.sort();
-    let arr2 = arr1.slice(3, 5);
+    let arr1 = arr.sort((a, b) => b - a);
+    let arr2 = arr1.slice(0, 2);
     console.log("Mang sau khi lay 2 so lon nhat la: ", arr2);
 
     let sumTop2 = arr2.reduce((resultBefore, currValue) => {

@@ -61,7 +61,9 @@ class PostForm extends React.Component {
             ></input>
           </div>
           <div>
-            <button type="submit">Submit</button>
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
           </div>
         </form>
       </div>

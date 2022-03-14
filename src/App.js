@@ -1,13 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 import StringMost from "./StringMost";
-import SumTop2 from "./SumTop2";
-
+import GetAllPost from "./GetAllPost";
 function App() {
   return (
     <div className="App">
       <StringMost />
-      <SumTop2 />
+      <GetAllPost />
     </div>
   );
 }
